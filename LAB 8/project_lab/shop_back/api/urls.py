@@ -3,8 +3,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', index),
-    path('cat_item/',cat_item),
-    path('cats/', categories),
+    # path('cat_item/',cat_item),
+    # path('cats/', categories),
     
     path('products/', list_products),
     path('products/<int:get_id>/', get_product),
